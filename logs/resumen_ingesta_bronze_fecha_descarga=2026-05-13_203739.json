@@ -1,0 +1,226 @@
+{
+    "proyecto": "Ex_Parcial_Gestión_De_Datos_Masivos",
+    "ruta_proyecto": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos",
+    "capa": "bronze",
+    "snapshot_id": "fecha_descarga=2026-05-13_203739",
+    "fecha_inicio": "2026-05-13 20:37:39",
+    "principio": "Snapshot inmutable. Los archivos se guardan sin transformación.",
+    "fuentes": [
+        {
+            "nombre_fuente": "siaf_ingresos",
+            "dataset": "Presupuesto y ejecución de ingreso",
+            "total_recursos": 8,
+            "recursos_ok": 8,
+            "recursos_error": 0,
+            "recursos": [
+                {
+                    "nombre_recurso": "2019-Ingreso",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2019\\2019-Ingreso.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2019\\metadata_2019-Ingreso.json",
+                    "checksum_sha256": "ea88ddf9911c18c1b936e6f1373a8bae3c3408fd2f921e4c2dfe4561518ec3bd"
+                },
+                {
+                    "nombre_recurso": "2020-Ingreso",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2020\\2020-Ingreso.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2020\\metadata_2020-Ingreso.json",
+                    "checksum_sha256": "d8f3c58fc6baa0471ceb9fbbe3e4cf7031d362b080ddc3e05a9d06a052213d7e"
+                },
+                {
+                    "nombre_recurso": "2021-Ingreso",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2021\\2021-Ingreso.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2021\\metadata_2021-Ingreso.json",
+                    "checksum_sha256": "afc5b483853788c1042a86cac748772ec89eee9b5137a71a7817ce32fb4f4ca1"
+                },
+                {
+                    "nombre_recurso": "2022-Ingreso",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2022\\2022-Ingreso.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2022\\metadata_2022-Ingreso.json",
+                    "checksum_sha256": "44be17ef6f07e767e30be655dcb0bab547e02a289ced3ec67e654bd2c0de7707"
+                },
+                {
+                    "nombre_recurso": "2023-Ingreso",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2023\\2023-Ingreso.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2023\\metadata_2023-Ingreso.json",
+                    "checksum_sha256": "b8d125ca14d7a547ec605a52ae774fd3a0d3751880a9b84d3ed80489017c6af3"
+                },
+                {
+                    "nombre_recurso": "2024-Ingreso",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2024\\2024-Ingreso.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2024\\metadata_2024-Ingreso.json",
+                    "checksum_sha256": "5a1ac411ab6422f5f308fd2f95a8f23dd2cec2fb7b775564cc08c9ab6354038f"
+                },
+                {
+                    "nombre_recurso": "2025-Ingreso-Mensual",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2025\\2025-Ingreso-Mensual.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2025\\metadata_2025-Ingreso-Mensual.json",
+                    "checksum_sha256": "f5ebdb314b5bcd74b39974f8d391f933fb5dd4eec4e902b74a1b3fb1eb7c0394"
+                },
+                {
+                    "nombre_recurso": "2026-Ingreso-Mensual",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2026\\2026-Ingreso-Mensual.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2026\\metadata_2026-Ingreso-Mensual.json",
+                    "checksum_sha256": "72a538dd2cdafa71c275efe14bdd3b602ac3b62ff76de902dcefc81f662c76cf"
+                }
+            ],
+            "metadata_fuente": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\metadata_fuente.json"
+        },
+        {
+            "nombre_fuente": "sismepre_predial",
+            "dataset": "Seguimiento de la meta del impuesto predial",
+            "total_recursos": 14,
+            "recursos_ok": 13,
+            "recursos_error": 1,
+            "recursos": [
+                {
+                    "nombre_recurso": "rentas_preguntas",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\rentas_preguntas.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\metadata_rentas_preguntas.json",
+                    "checksum_sha256": "b60a58f88cd2a3f304fa69e054273e9157a3e5957f88d56f89c6706cd42b7342"
+                },
+                {
+                    "nombre_recurso": "rentas_estadistica",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\rentas_estadistica.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\metadata_rentas_estadistica.json",
+                    "checksum_sha256": "afeb1de99c802ad19f6cc231b625f474845b5e00f529c11131568d3b800d4a76"
+                },
+                {
+                    "nombre_recurso": "rentas_formulario",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\rentas_formulario.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\metadata_rentas_formulario.json",
+                    "checksum_sha256": "817d355cef702dcf39e0d3e4924f0e93a579b705f4a701965da64e6ea9feba3a"
+                },
+                {
+                    "nombre_recurso": "rentas_esat_estadistica_atm",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\rentas_esat_estadistica_atm.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\metadata_rentas_esat_estadistica_atm.json",
+                    "checksum_sha256": "9299ce471f9269d064975eca29e51ff5283e45d846822489c314dd0dccaa6cdb"
+                },
+                {
+                    "nombre_recurso": "rentas_respuestas",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\rentas_respuestas.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\metadata_rentas_respuestas.json",
+                    "checksum_sha256": "b9d9acb3a7e2d8e4bd92642b05ba577a26c9d6e3a09fb6cd4255bd5b95b9e1de"
+                },
+                {
+                    "nombre_recurso": "rentas_ano_aplicacion",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\rentas_ano_aplicacion.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\metadata_rentas_ano_aplicacion.json",
+                    "checksum_sha256": "44f9909944fbb408e906969e6abab38b785e4d3b7e570503e377f5488113efec"
+                },
+                {
+                    "nombre_recurso": "rentas_entidad_estado",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\rentas_entidad_estado.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\metadata_rentas_entidad_estado.json",
+                    "checksum_sha256": "6c389521c13b32a6228296b5556de718e68fba9f315c69d770bf801eefee7131"
+                },
+                {
+                    "nombre_recurso": "rentas_ano_aplicacion_diccionario",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\rentas_ano_aplicacion_diccionario.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\metadata_rentas_ano_aplicacion_diccionario.json",
+                    "checksum_sha256": "2260c3ab3d59f949f7a2539cb7d7032257b117b520324da5220f4a01597cf3e3"
+                },
+                {
+                    "nombre_recurso": "rentas_preguntas_diccionario",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\rentas_preguntas_diccionario.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\metadata_rentas_preguntas_diccionario.json",
+                    "checksum_sha256": "92562e49b2cb1714e54563971f660002027274c76fb562edc8d171f0dc9958b6"
+                },
+                {
+                    "nombre_recurso": "rentas_estadistica_diccionario",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\rentas_estadistica_diccionario.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\metadata_rentas_estadistica_diccionario.json",
+                    "checksum_sha256": "67ddcbde26febc21c5dee3d9f341c7b1cf1fe9862faef8652dae49693dea1e35"
+                },
+                {
+                    "nombre_recurso": "rentas_entidad_estado_diccionario",
+                    "estado": "error",
+                    "descargado": false,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\rentas_entidad_estado_diccionario.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\metadata_rentas_entidad_estado_diccionario.json",
+                    "checksum_sha256": null
+                },
+                {
+                    "nombre_recurso": "rentas_formulario_diccionario",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\rentas_formulario_diccionario.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\metadata_rentas_formulario_diccionario.json",
+                    "checksum_sha256": "19542c71410c3b41b8b6e315c7b8d75282a30652202cbd205747cb58eda68102"
+                },
+                {
+                    "nombre_recurso": "rentas_esat_estadistica_atm_diccionario",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\rentas_esat_estadistica_atm_diccionario.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\metadata_rentas_esat_estadistica_atm_diccionario.json",
+                    "checksum_sha256": "ad6ccc5d8f8ea9805a7e68fa83ae82744594569484030d8beb29f5998606e49f"
+                },
+                {
+                    "nombre_recurso": "rentas_respuestas_diccionario",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\rentas_respuestas_diccionario.csv",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\metadata_rentas_respuestas_diccionario.json",
+                    "checksum_sha256": "c52fa3661e50083297706068bb6ddb013ca379b2c29fff6cb5a8869c1b78557b"
+                }
+            ],
+            "metadata_fuente": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\metadata_fuente.json"
+        },
+        {
+            "nombre_fuente": "renamu_2022",
+            "dataset": "Registro Nacional de Municipalidades RENAMU 2022",
+            "total_recursos": 1,
+            "recursos_ok": 1,
+            "recursos_error": 0,
+            "recursos": [
+                {
+                    "nombre_recurso": "renamu_2022_zip",
+                    "estado": "ok",
+                    "descargado": true,
+                    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\renamu_2022\\fecha_descarga=2026-05-13_203739\\data_completa\\2022.zip",
+                    "metadata": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\renamu_2022\\fecha_descarga=2026-05-13_203739\\data_completa\\metadata_renamu_2022_zip.json",
+                    "checksum_sha256": "359aae23bed8619dd14778965e0bfd0ca23997c050d22960a41f93e6f837abe4"
+                }
+            ],
+            "metadata_fuente": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\renamu_2022\\fecha_descarga=2026-05-13_203739\\metadata_fuente.json"
+        }
+    ],
+    "fecha_fin": "2026-05-13 20:42:00",
+    "duracion_segundos": 261.24
+}

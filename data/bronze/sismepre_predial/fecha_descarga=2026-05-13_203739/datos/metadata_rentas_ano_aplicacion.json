@@ -1,0 +1,21 @@
+{
+    "nombre_recurso": "rentas_ano_aplicacion",
+    "categoria": "datos",
+    "tipo_recurso": "data",
+    "formato": "csv",
+    "anio": null,
+    "url_descarga": "https://fs.datosabiertos.mef.gob.pe/datastorefiles/rentas_ano_aplicacion.csv",
+    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\rentas_ano_aplicacion.csv",
+    "snapshot_id": "fecha_descarga=2026-05-13_203739",
+    "fecha_descarga": "2026-05-13 20:41:54",
+    "capa": "bronze",
+    "tratamiento": "Archivo original descargado y guardado sin modificaciones.",
+    "descarga": {
+        "estado": "ok",
+        "descargado": true,
+        "mensaje": "Archivo descargado correctamente.",
+        "codigo_http": 200,
+        "tamanio_bytes": 2797
+    },
+    "checksum_sha256": "44f9909944fbb408e906969e6abab38b785e4d3b7e570503e377f5488113efec"
+}

@@ -1,0 +1,21 @@
+{
+    "nombre_recurso": "rentas_preguntas_diccionario",
+    "categoria": "diccionarios",
+    "tipo_recurso": "diccionario",
+    "formato": "csv",
+    "anio": null,
+    "url_descarga": "https://fs.datosabiertos.mef.gob.pe/datastorefiles/rentas_preguntas_diccionario.csv",
+    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\diccionarios\\rentas_preguntas_diccionario.csv",
+    "snapshot_id": "fecha_descarga=2026-05-13_203739",
+    "fecha_descarga": "2026-05-13 20:41:56",
+    "capa": "bronze",
+    "tratamiento": "Archivo original descargado y guardado sin modificaciones.",
+    "descarga": {
+        "estado": "ok",
+        "descargado": true,
+        "mensaje": "Archivo descargado correctamente.",
+        "codigo_http": 200,
+        "tamanio_bytes": 1139
+    },
+    "checksum_sha256": "92562e49b2cb1714e54563971f660002027274c76fb562edc8d171f0dc9958b6"
+}

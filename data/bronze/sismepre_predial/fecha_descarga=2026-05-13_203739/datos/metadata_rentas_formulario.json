@@ -1,0 +1,21 @@
+{
+    "nombre_recurso": "rentas_formulario",
+    "categoria": "datos",
+    "tipo_recurso": "data",
+    "formato": "csv",
+    "anio": null,
+    "url_descarga": "https://fs.datosabiertos.mef.gob.pe/datastorefiles/rentas_formulario.csv",
+    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\sismepre_predial\\fecha_descarga=2026-05-13_203739\\datos\\rentas_formulario.csv",
+    "snapshot_id": "fecha_descarga=2026-05-13_203739",
+    "fecha_descarga": "2026-05-13 20:41:48",
+    "capa": "bronze",
+    "tratamiento": "Archivo original descargado y guardado sin modificaciones.",
+    "descarga": {
+        "estado": "ok",
+        "descargado": true,
+        "mensaje": "Archivo descargado correctamente.",
+        "codigo_http": 200,
+        "tamanio_bytes": 11451
+    },
+    "checksum_sha256": "817d355cef702dcf39e0d3e4924f0e93a579b705f4a701965da64e6ea9feba3a"
+}

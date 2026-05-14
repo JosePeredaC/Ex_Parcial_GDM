@@ -1,0 +1,21 @@
+{
+    "nombre_recurso": "2023-Ingreso",
+    "categoria": "anio=2023",
+    "tipo_recurso": "data_anual",
+    "formato": "csv",
+    "anio": 2023,
+    "url_descarga": "https://fs.datosabiertos.mef.gob.pe/datastorefiles/2023-Ingreso.csv",
+    "archivo_bronze": "C:\\Users\\USER\\OneDrive\\Documentos\\CICLOS\\CICLO 7\\Gestión de datos masivos\\Semana 8\\Ex_Parcial_Gestión_De_Datos_Masivos\\data\\bronze\\siaf_ingresos\\fecha_descarga=2026-05-13_203739\\anio=2023\\2023-Ingreso.csv",
+    "snapshot_id": "fecha_descarga=2026-05-13_203739",
+    "fecha_descarga": "2026-05-13 20:40:22",
+    "capa": "bronze",
+    "tratamiento": "Archivo original descargado y guardado sin modificaciones.",
+    "descarga": {
+        "estado": "ok",
+        "descargado": true,
+        "mensaje": "Archivo descargado correctamente.",
+        "codigo_http": 200,
+        "tamanio_bytes": 362173711
+    },
+    "checksum_sha256": "b8d125ca14d7a547ec605a52ae774fd3a0d3751880a9b84d3ed80489017c6af3"
+}
