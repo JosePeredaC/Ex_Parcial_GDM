@@ -124,6 +124,69 @@ FUENTES = {
         "descripcion": "Datos de presupuesto y ejecución de ingresos publicados por el MEF.",
         "recursos": [
             {
+                "nombre_recurso": "2012-Ingreso",
+                "anio": 2012,
+                "categoria": "anio=2012",
+                "tipo_recurso": "data_anual",
+                "formato": "csv",
+                "url": "https://fs.datosabiertos.mef.gob.pe/datastorefiles/2012-Ingreso.csv",
+                "archivo_salida": "2012-Ingreso.csv"
+            },
+            {
+                "nombre_recurso": "2013-Ingreso",
+                "anio": 2013,
+                "categoria": "anio=2013",
+                "tipo_recurso": "data_anual",
+                "formato": "csv",
+                "url": "https://fs.datosabiertos.mef.gob.pe/datastorefiles/2013-Ingreso.csv",
+                "archivo_salida": "2013-Ingreso.csv"
+            },
+            {
+                "nombre_recurso": "2014-Ingreso",
+                "anio": 2014,
+                "categoria": "anio=2014",
+                "tipo_recurso": "data_anual",
+                "formato": "csv",
+                "url": "https://fs.datosabiertos.mef.gob.pe/datastorefiles/2014-Ingreso.csv",
+                "archivo_salida": "2014-Ingreso.csv"
+            },
+            {
+                "nombre_recurso": "2015-Ingreso",
+                "anio": 2015,
+                "categoria": "anio=2015",
+                "tipo_recurso": "data_anual",
+                "formato": "csv",
+                "url": "https://fs.datosabiertos.mef.gob.pe/datastorefiles/2015-Ingreso.csv",
+                "archivo_salida": "2015-Ingreso.csv"
+            },
+            {
+                "nombre_recurso": "2016-Ingreso",
+                "anio": 2016,
+                "categoria": "anio=2016",
+                "tipo_recurso": "data_anual",
+                "formato": "csv",
+                "url": "https://fs.datosabiertos.mef.gob.pe/datastorefiles/2016-Ingreso.csv",
+                "archivo_salida": "2016-Ingreso.csv"
+            },
+            {
+                "nombre_recurso": "2017-Ingreso",
+                "anio": 2017,
+                "categoria": "anio=2017",
+                "tipo_recurso": "data_anual",
+                "formato": "csv",
+                "url": "https://fs.datosabiertos.mef.gob.pe/datastorefiles/2017-Ingreso.csv",
+                "archivo_salida": "2017-Ingreso.csv"
+            },
+            {
+                "nombre_recurso": "2018-Ingreso",
+                "anio": 2018,
+                "categoria": "anio=2018",
+                "tipo_recurso": "data_anual",
+                "formato": "csv",
+                "url": "https://fs.datosabiertos.mef.gob.pe/datastorefiles/2018-Ingreso.csv",
+                "archivo_salida": "2018-Ingreso.csv"
+            },
+            {
                 "nombre_recurso": "2019-Ingreso",
                 "anio": 2019,
                 "categoria": "anio=2019",
