@@ -1,5 +1,4 @@
-# Ex_Parcial_GDM
-# Exámen parcial del curso de Gestión de Datos Masivos
+# Exámen Parcial GDM
 
 ## Descripción General
 
@@ -139,9 +138,32 @@ No se fuerza a todas las fuentes a tener el mismo formato, porque cada una publi
 
 Los archivos del SIAF se publican por año. Por ello, dentro de Bronze se organizan en carpetas anuales.
 
+El proyecto considera archivos históricos desde **2012 hasta 2026**. Los años **2012 a 2024** corresponden a archivos anuales, mientras que **2025 y 2026** corresponden a archivos mensuales.
+
 ```text
 data/bronze/siaf_ingresos/
 └── fecha_descarga=YYYY-MM-DD_HHMMSS/
+    ├── anio=2012/
+    │   ├── 2012-Ingreso.csv
+    │   └── metadata_2012-Ingreso.json
+    ├── anio=2013/
+    │   ├── 2013-Ingreso.csv
+    │   └── metadata_2013-Ingreso.json
+    ├── anio=2014/
+    │   ├── 2014-Ingreso.csv
+    │   └── metadata_2014-Ingreso.json
+    ├── anio=2015/
+    │   ├── 2015-Ingreso.csv
+    │   └── metadata_2015-Ingreso.json
+    ├── anio=2016/
+    │   ├── 2016-Ingreso.csv
+    │   └── metadata_2016-Ingreso.json
+    ├── anio=2017/
+    │   ├── 2017-Ingreso.csv
+    │   └── metadata_2017-Ingreso.json
+    ├── anio=2018/
+    │   ├── 2018-Ingreso.csv
+    │   └── metadata_2018-Ingreso.json
     ├── anio=2019/
     │   ├── 2019-Ingreso.csv
     │   └── metadata_2019-Ingreso.json
@@ -173,6 +195,13 @@ data/bronze/siaf_ingresos/
 
 | Año | Archivo | Tipo |
 |---:|---|---|
+| 2012 | `2012-Ingreso.csv` | Data anual |
+| 2013 | `2013-Ingreso.csv` | Data anual |
+| 2014 | `2014-Ingreso.csv` | Data anual |
+| 2015 | `2015-Ingreso.csv` | Data anual |
+| 2016 | `2016-Ingreso.csv` | Data anual |
+| 2017 | `2017-Ingreso.csv` | Data anual |
+| 2018 | `2018-Ingreso.csv` | Data anual |
 | 2019 | `2019-Ingreso.csv` | Data anual |
 | 2020 | `2020-Ingreso.csv` | Data anual |
 | 2021 | `2021-Ingreso.csv` | Data anual |
@@ -416,6 +445,13 @@ Ex_Parcial_Gestión_De_Datos_Masivos/
 │   ├── bronze/
 │   │   ├── siaf_ingresos/
 │   │   │   └── fecha_descarga=YYYY-MM-DD_HHMMSS/
+│   │   │       ├── anio=2012/
+│   │   │       ├── anio=2013/
+│   │   │       ├── anio=2014/
+│   │   │       ├── anio=2015/
+│   │   │       ├── anio=2016/
+│   │   │       ├── anio=2017/
+│   │   │       ├── anio=2018/
 │   │   │       ├── anio=2019/
 │   │   │       ├── anio=2020/
 │   │   │       ├── anio=2021/
@@ -456,6 +492,7 @@ Ex_Parcial_Gestión_De_Datos_Masivos/
 | Crear snapshots por ejecución | Facilita la trazabilidad cuando las fuentes oficiales se actualizan. |
 | No sobrescribir archivos anteriores | Evita pérdida de evidencia y permite reproducir análisis anteriores. |
 | Descargar archivos completos | Las fuentes se publican como archivos completos; no se asumió carga incremental. |
+| Incorporar SIAF desde 2012 hasta 2026 | Permite contar con una serie histórica amplia para análisis temporal de ingresos municipales. |
 | Separar recursos por fuente | Cada fuente tiene una estructura de publicación distinta. |
 | Organizar SIAF por año | El dataset se publica en archivos anuales o mensuales por año. |
 | Separar datos y diccionarios en SISMEPRE | Facilita la interpretación posterior en Silver. |
@@ -489,18 +526,34 @@ Estas actividades corresponden a las capas **Silver** y **Gold**.
 
 ---
 
-## 1.14. Próximos Pasos
+## 1.14. Consideración Técnica sobre SIAF
+
+Al incorporar archivos desde **2012 hasta 2026**, se debe considerar que los archivos históricos podrían no tener exactamente la misma estructura de columnas, nombres de campos, codificación o granularidad.
+
+En particular:
+
+- Los años **2012 a 2024** corresponden a archivos anuales.
+- Los años **2025 y 2026** corresponden a archivos mensuales.
+- La consistencia estructural entre años deberá validarse en la capa Silver.
+- No se debe asumir que todos los archivos tienen las mismas columnas hasta inspeccionarlos.
+
+Esta validación no se realiza en Bronze porque Bronze solo conserva los archivos originales.
+
+---
+
+## 1.15. Próximos Pasos
 
 Los siguientes pasos del proyecto serán:
 
 1. Inspeccionar la estructura y calidad de los archivos descargados.
-2. Identificar las columnas clave de cada fuente.
-3. Definir las reglas de limpieza para la capa Silver.
-4. Estandarizar campos como año, entidad, municipalidad y ubigeo.
-5. Seleccionar los archivos relevantes de SISMEPRE para el análisis.
-6. Extraer y preparar la información útil de RENAMU.
-7. Construir tablas limpias en Silver.
-8. Diseñar tablas analíticas en Gold para alimentar Power BI.
+2. Comparar las columnas de los archivos SIAF entre 2012 y 2026.
+3. Identificar las columnas clave de cada fuente.
+4. Definir las reglas de limpieza para la capa Silver.
+5. Estandarizar campos como año, entidad, municipalidad y ubigeo.
+6. Seleccionar los archivos relevantes de SISMEPRE para el análisis.
+7. Extraer y preparar la información útil de RENAMU.
+8. Construir tablas limpias en Silver.
+9. Diseñar tablas analíticas en Gold para alimentar Power BI.
 
 ---
 
@@ -517,7 +570,7 @@ Hasta el momento se ha avanzado en la construcción de la capa Bronze.
 | Carpeta `data/silver/` | Creada, pendiente de implementación |
 | Carpeta `data/gold/` | Creada, pendiente de implementación |
 | Script de ingesta Bronze | Implementado |
-| Descarga automatizada de SIAF | Implementado en script |
+| Descarga automatizada de SIAF 2012-2026 | Implementado en script |
 | Descarga automatizada de SISMEPRE | Implementado en script |
 | Descarga automatizada de RENAMU | Implementado en script |
 | Generación de metadata | Implementado |
